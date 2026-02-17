@@ -1,0 +1,190 @@
+:root {
+    --Primary-color: #363738;
+    --secondary-color: #f5f5f5;
+    --three-color: ##fefaf1;
+    --btn-color-first: #db4444;
+    --btn-color-second: #0f6;
+    --hover-btn-color: #e07575;
+    --hover-btn-second: #a0bce0;
+    --font-family: "Poppins", sans-serif;
+    --second-family: "Inter", sans-serif;
+    --text: #fafafa;
+    --text1: #7d8184;
+    --text2: #000;
+}
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Popppins", sans-serif;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+h1 {
+    margin: 0;
+
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+    margin: 0;
+}
+
+p {
+    color: var(--primary-text);
+    margin: 0;
+}
+
+a {
+    font-family: inherit;
+    padding: 0;
+    text-decoration: none;
+    text-decoration-skip-ink: none;
+}
+
+button {
+    font-family: inherit;
+    border: none;
+}
+
+address {
+    font-style: normal;
+}
+
+input,
+textarea,
+select {
+    font-family: inherit;
+    outline: none;
+    width: 250px;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.section{
+    padding: 0 135px;
+}
+
+
+
+
+
+
+
+
+/* HEADER  */
+
+.top-header {
+    background-color: black;
+    max-width: 100%;
+    height: 48px;
+}
+
+.top-header-text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--text);
+}
+
+.top-header-link {
+    margin-left: 8px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-align: center;
+    color: var(--text);
+}
+
+
+.top-header-leng{
+width: 78px;
+height: 24px;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.5;
+color: var(--text);
+background-color: black; 
+margin-left: 76px;
+}
+
+
+
+
+
+.header-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 0;
+
+}
+
+.logo-link {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: 0.03em;
+    color: var(--text2);
+}
+
+.header-nav {
+    margin: 0 auto;
+}
+
+.header-nav-list {
+    display: flex;
+    gap: 24px;
+
+}
+
+.header-nav-item {
+
+}
+
+.header-nav-link{
+display: block;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+color: var(--text2);
+}
+
+
+
+.header-search-input {}
+
+.header-icon {
+    stroke: #050505;
+    fill: #f5f5f5;
+}

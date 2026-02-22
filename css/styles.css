@@ -11,6 +11,7 @@
     --text: #fafafa;
     --text1: #7d8184;
     --text2: #000;
+    --text3: #db4444;
 }
 
 
@@ -88,6 +89,13 @@ select {
 .section{
     padding: 0 135px;
     
+}
+
+.section-title{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 24px;
 }
 
 
@@ -239,11 +247,44 @@ margin-bottom: 16px;
 }
 
 .today-title{
-
+font-weight: 600;
+font-size: 16px;
+line-height: 125%;
+color: var(--text3);
 }
 
 .today-title-text{
+font-family: var(--second-family);
+font-weight: 600;
+font-size: 36px;
+line-height: 133%;
+letter-spacing: 0.04em;
+color: var(--text2);
+}
 
+.today-icon{
+display: flex;
+}
+
+.today-icon-title{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.today-icon-list{
+ display: flex;
+ gap: 8px;
+ margin-left: auto;
+}
+
+.today-icon-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 46px;
+    height: 46px;
+    background-color: var(--secondary-color);
+    border-radius: 50%;
 }
 
 .today-list{
@@ -289,26 +330,30 @@ margin-top: 40px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    color: var(--btn-color-first);
+    color: var(--text3);
 }
 
 
 
-
-
-
-
-
-
 .hero-button{
-    margin-top: 5550px;
+    margin-top: 60px;
+    margin-left: 468px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     background-color: var(--btn-color-first);
     color: var(--text);
-    width: 159px;
-    height: 59px;
+    width: 234px;
+    height: 56px;
     border-radius: 4px;
+    padding: 16px 48px;
 }
+
+
 /* END TODAY  */
+
+.categorys-container{
+    margin-top: 60px;
+    padding: 80px 0 70px 0;
+    border-top: 1px solid );
+}

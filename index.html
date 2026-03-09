@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
     <title>petprod</title>
   </head>
+
   <body>
     <div class="top-header header-container">
       <p class="top-header-text">
@@ -26,22 +27,12 @@
         <a class="top-header-link" href="#">ShopNow</a>
       </p>
 
-           <select 
-           class="top-header-leng" 
-           id="size" 
-           name="size">
-                <option value="en">English</option>
-                <option value="ua" selected >Ukraine</option>
-                <option value="ru" >PIDOR</option>
-                
-            </select>
-</div> 
-
- 
-
-
-
-
+      <select class="top-header-leng" id="size" name="size">
+        <option value="en">English</option>
+        <option value="ua" selected>Ukraine</option>
+        <option value="ru">PIDOR</option>
+      </select>
+    </div>
 
     <header class="header">
       <div class="header-container container">
@@ -50,7 +41,7 @@
         <nav class="header-nav">
           <ul class="header-nav-list">
             <li class="header-nav-item">
-              <a class="header-nav-link current" href="#" >Home</a>
+              <a class="header-nav-link current" href="#">Home</a>
             </li>
             <li class="header-nav-item">
               <a class="header-nav-link" href="#">Contact</a>
@@ -88,294 +79,357 @@
     </header>
 
     <main>
-        <!-- HERO SECTION -->
-       <section class="section section-hero">
+      <!-- HERO SECTION -->
+      <section class="section section-hero">
         <div class="line"></div>
         <div class="container hero-container">
-            <div class="categoris-container">
-              <ul class="categoris-list" >
-                <li class="categoris-list-item">
-                  <a class="categoris-list-link" href="#">Woman’s Fashion</a>
-                </li>
-                <li class="categoris-list-item">
-                  <a class="categoris-list-link" href="#">Men’s Fashion</a>
-                </li>
-                <li class="categoris-list-item">
-                  <a class="categoris-list-link"  href="#">Electronics</a>
-                </li>
-                <li class="categoris-list-item">
-                  <a class="categoris-list-link" href="#">Home & Lifestyle</a>
-                </li>
-                <li class="categoris-list-item">
-               <a class="categoris-list-link"  href="#">Medicine</a>
-                </li>
-                <li class="categoris-list-item">
-                  <a class="categoris-list-link" href="#">Sports & Outdoor</a>
-                </li>
-                <li class="categoris-list-item">
-                  <a class="categoris-list-link" href="#">Baby’s & Toys</a>
-                </li>
-                <li class="categoris-list-item">
-                  <a class="categoris-list-link" href="#">Groceries & Pets</a>
-                </li>
-                <li class="categoris-list-item">
-                  <a class="categoris-list-link" href="#">Health & Beauty</a>
-                </li>
-              </ul>
-            </div>
+          <div class="categoris-container">
+            <ul class="categoris-list">
+              <li class="categoris-list-item">
+                <a class="categoris-list-link" href="#">Woman’s Fashion</a>
+              </li>
+              <li class="categoris-list-item">
+                <a class="categoris-list-link" href="#">Men’s Fashion</a>
+              </li>
+              <li class="categoris-list-item">
+                <a class="categoris-list-link" href="#">Electronics</a>
+              </li>
+              <li class="categoris-list-item">
+                <a class="categoris-list-link" href="#">Home & Lifestyle</a>
+              </li>
+              <li class="categoris-list-item">
+                <a class="categoris-list-link" href="#">Medicine</a>
+              </li>
+              <li class="categoris-list-item">
+                <a class="categoris-list-link" href="#">Sports & Outdoor</a>
+              </li>
+              <li class="categoris-list-item">
+                <a class="categoris-list-link" href="#">Baby’s & Toys</a>
+              </li>
+              <li class="categoris-list-item">
+                <a class="categoris-list-link" href="#">Groceries & Pets</a>
+              </li>
+              <li class="categoris-list-item">
+                <a class="categoris-list-link" href="#">Health & Beauty</a>
+              </li>
+            </ul>
+          </div>
 
-            <div class="banner-container">
-                <img 
-              src="./images/hero-banner.jpg" 
+          <div class="banner-container">
+            <img
+              src="./images/hero-banner.jpg"
               alt="Banner"
               width="892"
-              height="344">
-              </div>
+              height="344"
+            />
+          </div>
         </div>
+      </section>
+      <!-- END HERO SECTION -->
 
-       </section>
-         <!-- END HERO SECTION -->
-
-         <!-- New Today Section -->
-       <section class="section">
-         <div class="container container-today">
+      <!-- New Today Section -->
+      <section class="section">
+        <div class="container container-today">
           <div class="hero-section-title">
-              <p class="hero-title-colon"></p>
-             <h2 class="hero-categories-title">Today`s</h2>
+            <p class="hero-title-colon"></p>
+            <h2 class="hero-categories-title">Today`s</h2>
           </div>
-        
-        <div class="today-icon">
-          <p class="today-title-text">Flash Sales</p>
-         <ul class="today-icon-list">
-          <li class="today-icon-item"> 
-            <svg class="today-svg" width="24" height="24">
-            <use href="/images/sprite.svg#icon-arrow-left2"></use>
-          </svg>
-        </li>
-          <li class="today-icon-item">
-            <svg class="today-svg" width="24" height="24">
-            <use href="/images/sprite.svg#icon-arrow-right2"></use>
-          </svg>
-        </li>
-         </ul>
+
+          <div class="today-icon">
+            <p class="today-title-text">Flash Sales</p>
+            <ul class="today-icon-list">
+              <li class="today-icon-item">
+                <svg class="today-svg" width="24" height="24">
+                  <use href="/images/sprite.svg#icon-arrow-left2"></use>
+                </svg>
+              </li>
+              <li class="today-icon-item">
+                <svg class="today-svg" width="24" height="24">
+                  <use href="/images/sprite.svg#icon-arrow-right2"></use>
+                </svg>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="today-list">
+            <li class="today-list-item">
+              <div class="today-img">
+                <img
+                  src="./images/today/Frame 570.png"
+                  alt="Gamepad"
+                  width="270"
+                  height="250"
+                />
+                <!-- <div class="button-overlay">
+            <button class="button-overlay-btn">
+              Buy Now
+            </button>
+          </div> -->
+              </div>
+              <div class="today-card-content">
+                <h3 class="card-title">HAVIT HV-G92 Gamepad</h3>
+                <p class="card-text">$120</p>
+              </div>
+            </li>
+            <li class="today-list-item">
+              <div class="today-img">
+                <img
+                  src="./images/today/Frame 570.png"
+                  alt="Gamepad"
+                  width="270"
+                  height="250"
+                />
+                <!-- <div class="button-overlay">
+            <button class="button-overlay-btn">
+              Buy Now
+            </button>
+          </div> -->
+              </div>
+              <div class="today-card-content">
+                <h3 class="card-title">HAVIT HV-G92 Gamepad</h3>
+                <p class="card-text">$120</p>
+              </div>
+            </li>
+            <li class="today-list-item">
+              <div class="today-img">
+                <img
+                  src="./images/today/Frame 570.png"
+                  alt="Gamepad"
+                  width="270"
+                  height="250"
+                />
+                <!-- <div class="button-overlay">
+            <button class="button-overlay-btn">
+              Buy Now
+            </button>
+          </div> -->
+              </div>
+              <div class="today-card-content">
+                <h3 class="card-title">HAVIT HV-G92 Gamepad</h3>
+                <p class="card-text">$120</p>
+              </div>
+            </li>
+            <li class="today-list-item">
+              <div class="today-img">
+                <img
+                  src="./images/today/Frame 570.png"
+                  alt="Gamepad"
+                  width="270"
+                  height="250"
+                />
+                <!-- <div class="button-overlay">
+            <button class="button-overlay-btn">
+              Buy Now
+            </button>
+          </div> -->
+              </div>
+              <div class="today-card-content">
+                <h3 class="card-title">HAVIT HV-G92 Gamepad</h3>
+                <p class="card-text">$120</p>
+              </div>
+            </li>
+          </ul>
+          <button class="hero-button" type="button">View All Products</button>
         </div>
-       
-       <ul class="today-list">
-         <li class="today-list-item">
-        <div class="today-img">
-       
-          <img
-          src="./images/today/Frame 570.png" 
-          alt="Gamepad"
-          width="270"
-          height="250"
-          >
-          <!-- <div class="button-overlay">
-            <button class="button-overlay-btn">
-              Buy Now
-            </button>
-          </div> -->
-          </div>
-          <div class="today-card-content">
-            <h3 class="card-title">HAVIT HV-G92 Gamepad</h3>
-            <p class="card-text">$120</p>
-          </div>
-        </li>
-          <li class="today-list-item">
-        <div class="today-img">
-       
-          <img
-          src="./images/today/Frame 570.png" 
-          alt="Gamepad"
-          width="270"
-          height="250"
-          >
-          <!-- <div class="button-overlay">
-            <button class="button-overlay-btn">
-              Buy Now
-            </button>
-          </div> -->
-          </div>
-          <div class="today-card-content">
-            <h3 class="card-title">HAVIT HV-G92 Gamepad</h3>
-            <p class="card-text">$120</p>
-          </div>
-        </li>
-        <li class="today-list-item">
-        <div class="today-img">
-       
-          <img
-          src="./images/today/Frame 570.png" 
-          alt="Gamepad"
-          width="270"
-          height="250"
-          >
-          <!-- <div class="button-overlay">
-            <button class="button-overlay-btn">
-              Buy Now
-            </button>
-          </div> -->
-          </div>
-          <div class="today-card-content">
-            <h3 class="card-title">HAVIT HV-G92 Gamepad</h3>
-            <p class="card-text">$120</p>
-          </div>
-        </li>
-         <li class="today-list-item">
-        <div class="today-img">
-       
-          <img
-          src="./images/today/Frame 570.png" 
-          alt="Gamepad"
-          width="270"
-          height="250"
-          >
-          <!-- <div class="button-overlay">
-            <button class="button-overlay-btn">
-              Buy Now
-            </button>
-          </div> -->
-          </div>
-          <div class="today-card-content">
-            <h3 class="card-title">HAVIT HV-G92 Gamepad</h3>
-            <p class="card-text">$120</p>
-          </div>
-         </li>
-       </ul>
-         <button class="hero-button" type="button" >
-        View All Products
-       </button>
-       </div>
-       </section>
+      </section>
 
-       <!-- End New Today Section -->
+      <!-- End New Today Section -->
 
-       <!-- Categorys Section -->
-       <section class="section">
+      <!-- Categorys Section -->
+      <section class="section">
         <div class="container categorys-container">
           <div class="hero-section-title">
-              <p class="hero-title-colon"></p>
-             <h2 class="hero-categories-title">Categories</h2>
+            <p class="hero-title-colon"></p>
+            <h2 class="hero-categories-title">Categories</h2>
           </div>
           <div class="today-icon">
-              <p class="today-title-text">
-          Browse By Category
-        </p>
-             <ul class="today-icon-list">
-          <li class="today-icon-item"> 
-            <svg class="today-svg" width="18" height="18">
-            <use href="/images/sprite.svg#icon-arrow-left2"></use>
-          </svg>
-        </li>
-          <li class="today-icon-item">
-            <svg class="today-svg" width="18" height="18">
-            <use href="/images/sprite.svg#icon-arrow-right2"></use>
-          </svg>
-        </li>
-         </ul>
+            <p class="today-title-text">Browse By Category</p>
+            <ul class="today-icon-list">
+              <li class="today-icon-item">
+                <svg class="today-svg" width="18" height="18">
+                  <use href="/images/sprite.svg#icon-arrow-left2"></use>
+                </svg>
+              </li>
+              <li class="today-icon-item">
+                <svg class="today-svg" width="18" height="18">
+                  <use href="/images/sprite.svg#icon-arrow-right2"></use>
+                </svg>
+              </li>
+            </ul>
           </div>
-      
-        <ul class="categories-list">
-          <li class="categories-list-item">
-            <a href="https://icomoon.io/app/#/select/image" target="_blank" class="categories-link">
-            <svg width="40" height="40">
-              <use href="/images/sprite.svg#icon-mobile2"></use>
-            </svg>
-                <p class="categories-card-text">
-              Phones
-            </p>
-            </a>
-          </li>
-          <li class="categories-list-item">
-             <a href="https://icomoon.io/app/#/select/image" target="_blank" class="categories-link">
-              <svg width="40" height="40">
-              <use href="/images/sprite.svg#icon-display"></use>
-            </svg>
-            <p class="categories-card-text">
-              Computers
-            </p>
-             </a>
-          </li>
-          <li class="categories-list-item">
-             <a href="https://icomoon.io/app/#/select/image" target="_blank" class="categories-link">
-              <svg width="40" height="40">
-              <use href="/images/sprite.svg#icon-alarm"></use>
-            </svg>
-           
-            <p class="categories-card-text">
-              SmartWatch
-            </p>
-            </a>
-          </li>
-          <li class="categories-list-item">
-             <a href="https://icomoon.io/app/#/select/image" target="_blank" class="categories-link">
-              <svg width="40" height="40">
-              <use href="/images/sprite.svg#icon-camera"></use>
-            </svg>
-           
-            <p class="categories-card-text">
-              Camera
-            </p>
-             </a>
-          </li>
-          <li class="categories-list-item">
-            <a href="https://icomoon.io/app/#/select/image" target="_blank" class="categories-link">
-             <svg width="40" height="40">
-              <use href="/images/sprite.svg#icon-headphones"></use>
-            </svg>
-           <p class="categories-card-text">
-            HeadPhones
-           </p>
-            </a>
-          </li>
-          <li class="categories-list-item">
-             <a href="https://icomoon.io/app/#/select/image" target="_blank" class="categories-link">
-              <svg width="40" height="40">
-              <use href="/images/sprite.svg#icon-steam"></use>
-            </svg>
-            <p class="categories-card-text">
-              Gaming
-            </p>
-             </a>
-          </li>
-        </ul>
 
+          <ul class="categories-list">
+            <li class="categories-list-item">
+              <a
+                href="https://icomoon.io/app/#/select/image"
+                target="_blank"
+                class="categories-link"
+              >
+                <svg width="40" height="40">
+                  <use href="/images/sprite.svg#icon-mobile2"></use>
+                </svg>
+                <p class="categories-card-text">Phones</p>
+              </a>
+            </li>
+            <li class="categories-list-item">
+              <a
+                href="https://icomoon.io/app/#/select/image"
+                target="_blank"
+                class="categories-link"
+              >
+                <svg width="40" height="40">
+                  <use href="/images/sprite.svg#icon-display"></use>
+                </svg>
+                <p class="categories-card-text">Computers</p>
+              </a>
+            </li>
+            <li class="categories-list-item">
+              <a
+                href="https://icomoon.io/app/#/select/image"
+                target="_blank"
+                class="categories-link"
+              >
+                <svg width="40" height="40">
+                  <use href="/images/sprite.svg#icon-alarm"></use>
+                </svg>
 
+                <p class="categories-card-text">SmartWatch</p>
+              </a>
+            </li>
+            <li class="categories-list-item">
+              <a
+                href="https://icomoon.io/app/#/select/image"
+                target="_blank"
+                class="categories-link"
+              >
+                <svg width="40" height="40">
+                  <use href="/images/sprite.svg#icon-camera"></use>
+                </svg>
+
+                <p class="categories-card-text">Camera</p>
+              </a>
+            </li>
+            <li class="categories-list-item">
+              <a
+                href="https://icomoon.io/app/#/select/image"
+                target="_blank"
+                class="categories-link"
+              >
+                <svg width="40" height="40">
+                  <use href="/images/sprite.svg#icon-headphones"></use>
+                </svg>
+                <p class="categories-card-text">HeadPhones</p>
+              </a>
+            </li>
+            <li class="categories-list-item">
+              <a
+                href="https://icomoon.io/app/#/select/image"
+                target="_blank"
+                class="categories-link"
+              >
+                <svg width="40" height="40">
+                  <use href="/images/sprite.svg#icon-steam"></use>
+                </svg>
+                <p class="categories-card-text">Gaming</p>
+              </a>
+            </li>
+          </ul>
         </div>
+      </section>
+      <!-- End Categorys Section -->
 
-       </section>
-        <!-- End Categorys Section -->
+      <!-- Best Selling Section -->
+      <section class="section">
+        <div class="container">
+          <div class="hero-section-title">
+            <p class="hero-title-colon"></p>
+            <h2 class="hero-categories-title">This Month</h2>
+          </div>
+          <div class="selling-text-button">
+            <p class="today-title-text">Best Selling Products</p>
+            <button class="selling-button">View All</button>
+          </div>
+          <div class="selling-container-img">
+            <ul class="selling-list">
+              <li class="selling-list-item">
+                <img
+                  src="/images/bestsells/Cart.jpg"
+                  width="270"
+                  height="250px"
+                  alt=""
+                  class="selling-list-item-img"
+                />
+                <div class="today-card-content">
+                  <h3 class="card-title">The north coat</h3>
+                  <p class="card-text">$260</p>
+                </div>
+              </li>
+              <li class="selling-list-item">
+                <img
+                  src="/images/bestsells/Cart-1.jpg"
+                  width="270"
+                  height="250px"
+                  alt=""
+                  class="selling-list-item-img"
+                />
+                <div class="today-card-content">
+                  <h3 class="card-title">Gucci duffle bag</h3>
+                  <p class="card-text">$960</p>
+                </div>
+              </li>
+              <li class="selling-list-item">
+                <img
+                  src="/images/bestsells/Cart-2.jpg"
+                  width="270"
+                  height="250px"
+                  alt=""
+                  class="selling-list-item-img"
+                />
+                <div class="today-card-content">
+                  <h3 class="card-title">RGB liquid CPU Cooler</h3>
+                  <p class="card-text">$160</p>
+                </div>
+              </li>
+              <li class="selling-list-item">
+                <img
+                  src="/images/bestsells/Cart-3.jpg"
+                  width="270"
+                  height="250px"
+                  alt=""
+                  class="selling-list-item-img"
+                />
+                <div class="today-card-content">
+                  <h3 class="card-title">Small BookSelf</h3>
+                  <p class="card-text">$360</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- END Best Selling Section -->
 
-        <!-- Best Selling Section -->
-       <section class="section">
+      <!-- Banner Section -->
+      <section class="section">
+        <div class="container">
+          <div class="banner-container">
+          <img src="/images/Frame 600.jpg" alt="" class="banner">
+          </div>
+        </div>
+      </section>
+      <!-- END Banner Section -->
 
-       </section>
-        <!-- END Best Selling Section --> 
+      <!-- OUR PRODUCTS -->
+      <section class="section"></section>
+      <!-- END OUR PRODUCTS -->
 
-        <!-- Banner Section -->
-       <section class="section">
-       </section>
-        <!-- END Banner Section -->
+      <!-- FEATURED -->
+      <section class="section"></section>
+      <!-- END FEATURED -->
 
-
-       <!-- OUR PRODUCTS -->
-       <section class="section">
-
-       </section>
-          <!-- END OUR PRODUCTS -->
-
-          <!-- FEATURED -->
-       <section class="section">
-        
-       </section>
-       <!-- END FEATURED --> 
-
-
-       <!-- SUPPOTR SECTION -->
-        <section class="section">
-
-        </section>
-          <!-- END SUPPOTR SECTION -->    
+      <!-- SUPPOTR SECTION -->
+      <section class="section"></section>
+      <!-- END SUPPOTR SECTION -->
     </main>
 
     <footer></footer>

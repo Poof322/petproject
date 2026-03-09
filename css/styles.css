@@ -370,8 +370,8 @@ margin-top: 40px;
 
 
 .hero-button{
-    margin-top: 60px;
-    margin-left: 468px;
+    display: flex;
+    margin: 0 auto;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -432,6 +432,8 @@ margin-top: 40px;
     color: var(--text2);
 }
 
+
+
 .categories-link svg{
     fill: currentColor;
 }
@@ -445,3 +447,48 @@ font-size: 16px;
 line-height: 1.5;
 }
 
+
+/* Best Selling Section */
+
+.selling-button{
+    width: 159px;
+    padding: 16px 48px;
+    background: var(--btn-color-first);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--text);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.selling-text-button{
+        display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+    
+}
+
+.selling-list{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+}
+
+.selling-list-item{
+    margin-bottom: 8px;
+}
+
+.selling-list-item-img{
+    margin-bottom: 16px;
+}
+
+/*   Banner Section  */
+
+.banner-container{
+    margin-top: 140px;
+    margin-bottom: 70px;
+}
